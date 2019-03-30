@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Process Book: A Visualization for Global Terrorism</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!--  Navbar: Adapted from: https://getbootstrap.com/docs/4.3/components/navbar/-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="https://wustl.edu/">Process Book</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar2" aria-controls="navbar2" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar2">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#background">Overview and Motivation<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#relatedWork">Objectives</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#questions">Questions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#data">Data</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#design">Design</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#implementation">Implementation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#evaluation">Evaluation</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--  /Navbar  -->
+  <!--  Jumbotron Adapted from: https://getbootstrap.com/docs/4.3/components/jumbotron/ -->
+<div class="jumbotron jumbotron-fluid shadow">
+  <div class="container">
+    <h1 class="display-4 text-center text-danger">A Visualization for Global Terrorism</h1>
+    <div class="my-4">
+      <p class="lead text-center">Isabelle Xu &nbsp;&nbsp;&nbsp;isabelle.xu@wustl.edu &nbsp;&nbsp;&nbsp;451246 <br>Saulet Yskak &nbsp;&nbsp;&nbsp;saulet@wustl.edu &nbsp;&nbsp;&nbsp;467511<br>Zhikai Chen &nbsp;&nbsp;&nbsp;chen.zhikai@wustl.edu &nbsp;&nbsp;&nbsp;451501</p>
+    </div>
+    <div class="textJumbotron">
+      Project Repository: <a href="https://github.com/xuyumi/A-Visualization-for-Global-Terrorism">https://github.com/xuyumi/A-Visualization-for-Global-Terrorism</a><br>
+      Dataset: <a href="https://www.kaggle.com/START-UMD/gtd">https://www.kaggle.com/START-UMD/gtd</a>
+    </div>
+  </div>
+</div>
+<!--  /Jumbotron -->
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-lg-12">
+      <h2 class="my-4 text-danger" id="background">Overview and Motivation</h2>
+      <p>
+        Our visualization aims to help illuminate how terrorist attacks changed over the years, in addition to showing
+        any trends that may appear. This is especially relevant considering different current events all over the world
+        brought to light by modern social media and digital outlets. We recognize that this is a serious and sensitive
+        topic that deserves to be analyzed, and wish to display the data in a neutral unbiased light without sensationalist
+        purposes.
+      </p>
+      <p>
+        Source:
+        <a href="https://www.cnn.com/2019/03/15/asia/new-zealand-christchurch-attack-what-we-know-intl/index.html">https://www.cnn.com/2019/03/15/asia/new-zealand-christchurch-attack-what-we-know-intl/index.html</a>
+      </p>
+    </div>
+    <div class="col-12 col-lg-12">
+      <hr >
+      <h2 class="my-4 text-danger" id="relatedWork">Related Work</h2>
+      There are a number of different sources that provided inspiration to this project. The visualizations themselves
+      were heavily inspired by some previous studio work involving mercator maps, as well as a previous assignment that
+      dealt with showing political leanings across the different states of the USA. In addition, a visualization linked
+      from from database used influenced several decisions made: https://www.start.umd.edu/gtd/.
+      <br><br>
+    </div>
+    <div class="row">
+      <div class="col-sm" >
+        <img src="img/electoralMap.png" class="img-thumbnail rounded mx-auto d-block shadow mb-4" alt="Electoral Map">
+      </div>
+      <div class="col-sm" >
+        <img src="img/terrorism.png" class="img-thumbnail rounded mx-auto d-block shadow mb-4" alt="Example Map">
+      </div>
+    </div>
+    <div class="col-12 col-lg-12">
+      <hr>
+      <h2 class="my-4 text-danger" id="questions">Questions</h2>
+      <p>
+        Some questions we are trying to answer are what are some of the trends involving global terrorism attacks? Have
+        the frequency of such attacks increased over the last couple of years? How have certain factors influence such
+        attacks? These questions have evolved over the project as we started to hone into what available data was
+        available to us, as well as how much of the data we could process reasonably over the timespan of this project.
+        For example, we [TO BE COMPLETED]
+      </p>
+    </div>
+    <div class="col-12 col-lg-12">
+      <h2 class="my-4 text-danger" id="data">Data </h2>
+      <p>
+        We retrieved our data from <a href="https://www.kaggle.com/START-UMD/gtd">https://www.kaggle.com/START-UMD/gtd</a>,
+        then proceeded to process it both through Javascript and by manual cleanup in order to mold it into a usable
+        format. We also utilize some geo json for dividing up the maps by country.
+      </p>
+    </div>
+    <div class="col-12 col-lg-12">
+      <hr>
+      <h4 class="my-4 text-danger">Exploratory Data Analysis</h4>
+
+    </div>
+    <div class="col-12 col-lg-12">
+      <h2 class="my-4 text-danger" id="design">Design Evolution</h2>
+
+    </div>
+    <div class="col-12 col-lg-12">
+      <hr>
+      <h4 class="my-4 text-danger" >Sketches and Screenshots</h4>
+      <h5 class="my-3">Sketches: World Map with supplementary graphs</h5>
+      <div class="row sketches1">
+        <div class="col-sm" >
+          <img src="img/1.png" class="img-thumbnail rounded mx-auto d-block shadow mb-4" alt="Sketch 1">
+        </div>
+        <div class="col-sm">
+         <img src="img/2.png" class="img-thumbnail rounded mx-auto d-block shadow mb-4" alt="Sketch 2">
+        </div>
+        <div class="col-sm">
+          <img src="img/3.JPG" class="img-thumbnail rounded mx-auto d-block shadow mb-4" alt="Sketch 3">
+        </div>
+      </div>
+      <div class="row sketches2">
+        <div class="col-sm">
+          <img src="img/4.png" class="img-thumbnail rounded mx-auto d-block shadow mb-4" alt="Sketch 4">
+        </div>
+        <div class="col-sm">
+          <img src="img/5.JPG" class="img-thumbnail rounded mx-auto d-block shadow mb-4" alt="Sketch 5">
+        </div>
+      </div>
+      <h3 class="my-3 mt-4">Final Design</h3>
+      <img src="img/6.JPG" id="finalDesign" class="img-thumbnail rounded mx-auto d-block shadow mb-4" alt="Sketch Final Design">
+    </div>
+    <div class="col-12 col-lg-12">
+      <h2 class="my-4 text-danger" id="implementation">Implementation</h2>
+
+    </div>
+    <div class="col-12 col-lg-12">
+      <h2 class="my-4 text-danger" id="evaluation">Evaluation</h2>
+
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

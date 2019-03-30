@@ -1,0 +1,22 @@
+
+/*Images*/
+.row .sketches1 img {
+  width: 100%;
+}
+
+.row .sketches2 img {
+  width: 70%;
+}
+
+
+#finalDesign {
+  width: 50%;
+}
+
+.textJumbotron{
+  font-size: 14px;
+}
+
+.jumbotron{
+  background: #FFFFFF;
+}
