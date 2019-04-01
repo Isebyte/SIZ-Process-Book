@@ -20,3 +20,22 @@
 .jumbotron{
   background: #FFFFFF;
 }
+
+
+#map1 {
+  display: block;
+  width: auto;
+  height:700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bar1 {
+  display: block;
+  width: auto;
+  height:300px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
