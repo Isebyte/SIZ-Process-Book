@@ -22,7 +22,7 @@
 }
 
 
-#map1 {
+.map {
   display: block;
   width: auto;
   height:700px;
@@ -30,7 +30,7 @@
   margin-right: auto;
 }
 
-#bar1 {
+.bar {
   display: block;
   width: auto;
   height:300px;
