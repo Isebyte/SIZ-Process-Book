@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Process Book: A Visualization for Global Terrorism</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,7 +13,7 @@
   <!--  Navbar: Adapted from: https://getbootstrap.com/docs/4.3/components/navbar/-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="https://wustl.edu/">Process Book</a>
+      <a class="navbar-brand" href="https://wustl.edu/"><i class="fas fa-book"></i> Process Book</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar2" aria-controls="navbar2" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -61,7 +62,7 @@
 <div class="container">
   <div class="row">
     <div class="col-12 col-lg-12">
-      <h2 class="my-4 text-danger" id="background">Overview and Motivation</h2>
+      <h2 class="my-4 text-danger" id="background">Overview and Motivation <i class="fas fa-bullseye fa-sm"></i> </h2>
       <p>
         Our visualization aims to help illuminate how terrorist attacks changed over the years, in addition to showing
         any trends that may appear. This is especially relevant considering different current events all over the world
@@ -76,7 +77,7 @@
     </div>
     <div class="col-12 col-lg-12">
       <hr >
-      <h2 class="my-4 text-danger" id="relatedWork">Related Work</h2>
+      <h2 class="my-4 text-danger" id="relatedWork">Related Work <i class="fas fa-user-friends fa-sm"></i></h2>
       There are a number of different sources that provided inspiration to this project. The visualizations themselves
       were heavily inspired by some previous studio work involving mercator maps, as well as a previous assignment that
       dealt with showing political leanings across the different states of the USA. In addition, a visualization linked
@@ -93,7 +94,7 @@
     </div>
     <div class="col-12 col-lg-12">
       <hr>
-      <h2 class="my-4 text-danger" id="questions">Questions</h2>
+      <h2 class="my-4 text-danger" id="questions">Questions <i class="fas fa-question-circle fa-sm"></i></h2>
       <p>
         Some questions we are trying to answer are what are some of the trends involving global terrorism attacks? Have
         the frequency of such attacks increased over the last couple of years? How have certain factors influenced such
@@ -108,7 +109,8 @@
       </p>
     </div>
     <div class="col-12 col-lg-12">
-      <h2 class="my-4 text-danger" id="data">Data </h2>
+      <hr>
+      <h2 class="my-4 text-danger" id="data">Data <i class="fas fa-database fa-sm"></i></h2>
       <p>
         We retrieved our data from <a href="https://www.kaggle.com/START-UMD/gtd">https://www.kaggle.com/START-UMD/gtd</a>,
         then proceeded to process it both through Javascript and by manual cleanup in order to mold it into a usable
@@ -116,8 +118,7 @@
       </p>
     </div>
     <div class="col-12 col-lg-12">
-      <hr>
-      <h4 class="my-4 text-danger">Exploratory Data Analysis</h4>
+      <h4 class="my-4 text-danger">Exploratory Data Analysis <i class="fas fa-search fa-sm"></i></h4>
       <!--What visualizations did you use to look at your data initially? What insights did you gain?
       How did these insights inform your design?-->
       <p>
@@ -130,7 +131,8 @@
       </p>
     </div>
     <div class="col-12 col-lg-12">
-      <h2 class="my-4 text-danger" id="design">Design Evolution</h2>
+      <hr>
+      <h2 class="my-4 text-danger" id="design">Design Evolution <i class="fas fa-signal fa-sm"></i></h2>
       <!--What are the different visualizations you considered? Justify the design decisions you made using the-->
       <!--perceptual and design principles you learned in the course.-->
       <p>
@@ -146,9 +148,8 @@
       </p>
     </div>
     <div class="col-12 col-lg-12">
-      <hr>
-      <h4 class="my-4 text-danger" >Sketches and Screenshots</h4>
-      <h5 class="my-3">Sketches: World Map with supplementary graphs</h5>
+      <h4 class="my-4 text-danger" >Sketches and Screenshots <i class="fas fa-edit fa-sm"></i></h4>
+      <h5 class="my-3">Sketches: World Map with supplementary graphs <i class="fas fa-globe-americas fa-sm"></i></h5>
       <div class="row sketches1">
         <div class="col-sm" >
           <img src="img/1.png" class="img-thumbnail rounded mx-auto d-block shadow mb-4" alt="Sketch 1">
@@ -168,17 +169,17 @@
           <img src="img/5.JPG" class="img-thumbnail rounded mx-auto d-block shadow mb-4" alt="Sketch 5">
         </div>
       </div>
-      <h3 class="my-3 mt-4">Final Design</h3>
+      <h3 class="my-3 mt-4">Final Design <i class="fas fa-check-circle fa-sm"></i></h3>
       <img src="img/6.JPG" id="finalDesign" class="img-thumbnail rounded mx-auto d-block shadow mb-4" alt="Sketch Final Design">
     </div>
     <div class="row sketches3">
-      <h3 class="my-3 mt-4">Milestone 1: Prototype</h3>
+      <h3 class="my-3 mt-4">Milestone 1: Prototype <i class="fas fa-tools fa-sm"></i></h3>
       <img src="img/map1.png" class="img-thumbnail rounded mx-auto d-block shadow mb-4 map" alt="Map update 1">
       <img src="img/modal.png" class="img-thumbnail rounded mx-auto d-block shadow mb-4 map" alt="Hover">
       <img src="img/bar1.png" class="img-thumbnail rounded mx-auto d-block shadow mb-4 bar" alt="bar update 1">
     </div>
     <div class="row">
-      <h3 class="my-3">Milestone 2: Refinement and Additional Views</h3><br><br>
+      <h3 class="my-3">Milestone 2: Refinement and Additional Views <i class="fas fa-users-cog fa-sm"></i></h3><br><br>
     </div>
     <div class="row sketches4">
       <div class="col-sm">
@@ -190,7 +191,8 @@
       <img src="img/detail.png" class="img-thumbnail rounded mx-auto d-block shadow mb-4 map" alt="Detailed">
     </div>
     <div class="col-12 col-lg-12">
-      <h2 class="my-4 text-danger" id="implementation">Implementation</h2>
+      <hr>
+      <h2 class="my-4 text-danger" id="implementation">Implementation <i class="fas fa-edit fa-sm"></i></h2>
       <!--Describe the intent and functionality of the interactive visualizations you implemented.-->
       <!--Provide clear and well-referenced images showing the critical design and interaction elements.-->
       <p>
@@ -207,7 +209,8 @@
 
     </div>
     <div class="col-12 col-lg-12">
-      <h2 class="my-4 text-danger" id="evaluation">Evaluation</h2>
+      <hr>
+      <h2 class="my-4 text-danger" id="evaluation">Evaluation <i class="fas fa-award fa-sm"></i></h2>
       <!--What did you learn about the data by using your visualizations? How did you answer your questions? -->
       <!--How well does your visualization work, and how could you further improve it?-->
       <p>
