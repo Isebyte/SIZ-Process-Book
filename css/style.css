@@ -18,7 +18,9 @@
 }
 
 .jumbotron{
-  background: #FFFFFF;
+  background-image: url('../img/process.png');
+  background-size: cover;
+  background-color: #FFFFFF;
 }
 
 
